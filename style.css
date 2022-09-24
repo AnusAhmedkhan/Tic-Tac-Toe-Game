@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins:wght@300&display=swap');
+
+html {
+
+    font-size: 62.5%;
+}
+
+/* .main{
+    display: flex;
+} */
+body {
+    background-color: #00203FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    background-color: #ADEFD1FF;
+    height: 6.5rem;
+
+}
+
+.name h1 {
+    color: #00203FFF;
+    font-family: 'Cinzel', serif;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+
+}
+
+/* .img img{
+    width: 30rem;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.img{
+    margin-top: 8rem;
+} */
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.head h2 {
+    color: #ADEFD1FF;
+    font-size: 3.5rem;
+    padding-top: 3.2rem;
+
+}
+
+
+.hide {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(32,32,32);
+    opacity: 0.97;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ .no-show{
+    display: none;
+ }
+
+.hide h2{
+    font-size: 6rem;
+    color: white;
+}
+
+.hide button{
+    padding: 1rem;
+     border-radius: 1.1rem;
+     font-size: 2.7rem;
+     font-family: 'Cinzel', serif;
+     background-color: white;
+}
+
+
+.hide button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.box {
+
+    /* grid-template-columns: 3;
+    grid-template-rows: 3; */
+    border: solid 0.1rem #ADEFD1FF;
+    cursor: pointer;
+}
+
+.boxes {
+    color: #ADEFD1FF;
+    font-size: 7.5rem;
+    padding-bottom: 1rem;
+    padding-left: 3.2rem;
+    padding-top: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.b-r {
+    border-right: none;
+}
+
+.b-l {
+    border-left: none;
+}
+
+.b-b {
+    border-bottom: none;
+}
+
+.b-t {
+    border-top: none;
+}
+
+
+
+@media(max-width:360px) {
+    html{
+font-size: 50%;
+width: 100%;
+
+
+ }
+ .boxes{
+    font-size: 2rem;
+    padding-left: 1.5rem;
+ }
+}
